@@ -272,13 +272,13 @@ resource "aws_eks_node_group" "node_group" {
   ]
   
     
-  instance_types = ["t3.medium"]
+  instance_types = ["c7i-flex.large"]
 
   scaling_config {
 
-    desired_size = 4
-    max_size     = 6
-    min_size     = 1
+    desired_size = 2
+    max_size     = 4
+    min_size     = 2
   }
 
   depends_on = [
@@ -296,8 +296,8 @@ resource "aws_eks_node_group" "node_group" {
 
 
 resource "aws_instance" "eks" {
-    ami           = "ami-02dfbd4ff395f2a1b"
-    instance_type = "t2.medium"
+    ami           = "ami-0fef201115eefe936"
+    instance_type = "c7i-flex.large"
     subnet_id     = aws_subnet.public1.id
     vpc_security_group_ids = [aws_security_group.allow_all.id]
     root_block_device {
