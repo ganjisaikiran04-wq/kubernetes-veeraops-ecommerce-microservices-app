@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vignesh3327/kubernetes-veeraops-ecommerce-microservices-app.git
+    repoURL: https://github.com/ganjisaikiran04-wq/kubernetes-veeraops-ecommerce-microservices-app.git
     path: frontend/two-wheelers
     targetRevision: main
   destination:
