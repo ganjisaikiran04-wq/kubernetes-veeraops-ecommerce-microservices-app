@@ -11,14 +11,14 @@ data:
   #DB_PASSWORD: "root"
   #DB_NAME: "cloud"
 #if mysql on RDS
-  DB_HOST: "microservices-rds.ca18y8koafsb.us-east-1.rds.amazonaws.com"
+  DB_HOST: "microservices-rds.cu9eqo0c4f5w.us-east-1.rds.amazonaws.com"
   DB_USER: "admin"
   DB_PASSWORD: "Cloud123"
   DB_NAME: "cloud"
 
   MAIL_SERVER: "smtp.gmail.com"
   MAIL_PORT: "587"
-  MAIL_USERNAME: "vigneshrock9090@gmail.com" 
+  MAIL_USERNAME: "ganjisaikiran04@gmail.com" 
   MAIL_PASSWORD: "omll muco vkyl hytj"
   MAIL_USE_TLS: "true"
   MAIL_USE_SSL: "false"
